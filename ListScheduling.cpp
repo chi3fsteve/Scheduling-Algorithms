@@ -54,7 +54,6 @@ int main() {
 
 	vector<vector<int>> scheduleLPT;
 	scheduleLPT = listScheduling(sortJobs, numberOfMachines, arrSize);
-	
 	cout << "\nBelow is the output of the LPT algorithm for selected processing times and number of machines\n";
 
 	for (int i = 0; i < scheduleLPT.size(); i++)
